@@ -4,8 +4,8 @@ import "../src/flashloan/FlashLoan.sol";
 import "../src/reentrancy/Reentrancy.sol";
 import "../src/tokens/Tokens.sol";
 
-import {IERC20} from "forge-std/interfaces/IERC20.sol";
-import "forge-std/console.sol";
+import {IERC20} from "lib/forge-std/src/interfaces/IERC20.sol";
+import "lib/forge-std/src/console.sol";
 
 contract HundredFinanceHack is FlashLoan, Reentrancy {
     // Hundred Finance Markets on Gnosis Chain
