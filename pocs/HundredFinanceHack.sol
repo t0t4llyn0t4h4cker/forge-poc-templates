@@ -4,7 +4,7 @@ import "../src/flashloan/FlashLoan.sol";
 import "../src/reentrancy/Reentrancy.sol";
 import "../src/tokens/Tokens.sol";
 
-import "forge-std/interfaces/IERC20.sol";
+import {IERC20} from "forge-std/interfaces/IERC20.sol";
 import "forge-std/console.sol";
 
 contract HundredFinanceHack is FlashLoan, Reentrancy {
